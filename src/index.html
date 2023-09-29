@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <header></header>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Dobro, Valor do Jantar e Divisão da Conta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pizzaria - Calculadora de Conta</h1>
 
-  <body></body>
-  <script src="./main.js"></script>
+        <h2>Calculadora de Dobro</h2>
+        <p>Informe um número para calcular o dobro:</p>
+        <input type="number" id="numero" class="input-box">
+        <button id="calcularDobro" class="button">Calcular Dobro</button>
+        <p id="resultadoDobro" class="result"></p>
+
+        <hr>
+
+        <h2>Calculadora do Valor do Jantar</h2>
+        <p>Informe o valor da conta do jantar:</p>
+        <input type="number" id="valorConta" class="input-box">
+        <button id="calcularJantar" class="button">Calcular Valor do Jantar</button>
+        <p id="resultadoJantar" class="result"></p>
+
+        <hr>
+
+        <h2>Calculadora da Divisão da Conta</h2>
+        <p>Informe o valor total da conta:</p>
+        <input type="number" id="valorTotalConta" class="input-box">
+        <p>Informe a quantidade de clientes:</p>
+        <input type="number" id="quantidadeClientes" class="input-box">
+        <button id="calcularDivisao" class="button">Calcular Divisão da Conta</button>
+        <p id="resultadoDivisao" class="result"></p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
 </html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Programa JavaScript</title>
+</head>
+<body>
+    <script>
+        const valorTotalConta = parseFloat(prompt("Informe o valor total da conta:"));
+const quantidadeClientes = parseInt(prompt("Informe a quantidade de clientes:"));
+
+if (quantidadeClientes > 0) {
+    const valorPorCliente = valorTotalConta / quantidadeClientes;
+
+    alert(`Cada cliente deve pagar R$ ${valorPorCliente.toFixed(2)}.`);
+} else {
+
+    alert("A quantidade de clientes deve ser maior que zero.");
+}
+
+    </script>
+</body>
+</html>
