@@ -41,7 +41,7 @@ O que deve ser feito:
 ~~~
 
 
-## Desafio Resolvido: Explorando Lógica em JavaScript e Integração com HTML
+## Desafio Resolvido:
 
 Neste desafio, explorei a fascinante combinação de lógica de programação em JavaScript e sua integração perfeita com HTML. 😎 Ao realizar as três atividades a seguir:
 
